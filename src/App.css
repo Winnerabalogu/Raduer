@@ -1,42 +1,243 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F9F9F9;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.Header {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .Header > img {
+    height: 30px;
+    padding-left: 30px;
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  
+  .Head-Search{
+    display: flex;
   }
+  .Search {
+    display: flex;
+    position: relative;
+    margin-right: 50px;
+  }
+  
+  ul {
+    display: flex;
+    padding-right: 2vw;
+    margin-top: 8px;
+  }
+  
+  li {
+    padding-right: 2vw;
+    list-style: none;
+  }
+  .search-box {
+    border-radius: 5px;
+    border: 2px solid #4f8378;
+    margin-right: 20px;
+  }
+  
+  .search-icon {
+    color: #4f8378;
+    position: relative;
+    top: 0%;
+    left: 9px;
+    font-size: 12px;
+  }
+  
+  .box {
+    height: 30px;
+    outline: none;
+    color: rgb(156, 160, 160);
+  }
+  
+  .box-search {
+    height: 30px;
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #4f8378;
+  }
+  
+  #searchInput {
+    border: none;
+    padding-left: 20px;
+  }
+  .hamburger{
+    visibility: hidden;
+    color: #4f8378;
+    font-size: 30px;
+
+  }
+  .hamburger-icon{
+    visibility: hidden;
+  }
+.firstContent{
+    background-color: rgba(0, 135, 124, 1);
+    align-items: center;
+    height: 80vh;
+    display: flex;
+  }
+  
+  .firstbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .secondBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contentText{
+    color: #ffffff;
+    font-size: 3.2rem;
+    margin-left: 3vw;
+    margin-top: -20px;
+   max-width: 70%;
+  }
+
+  .contentParagraph{
+    color: #ffffff;
+    font-size: 1rem;
+    
+    max-width: 70%;
+    margin-top: 20px;
+    margin-left: 3vw;
+  }
+.ratings{
+    color: #ffffff;
+    background-color: #FF9737;
+    width: 204px;
+    height: 56px;
+    border-radius: 7px;
+    border: none;
+    margin-top: 80px;
+    margin-left: 13vw;
 }
 
-.card {
-  padding: 2em;
+  .image{
+    max-width: 30vw;
+    margin-right: 3vw;
+  }
+
+  .About-Section{
+    max-width: 100vw;
+  }
+
+  .aboutus{
+   text-align: center;
+   margin: 40px 0;
+   color: #004741;
+   font-size: 40px;
+  }
+  .aboutparagraph{
+      text-align: center;
+      margin: 0 auto;
+      margin-bottom: 40px;
+      font-size: 20px;
+      color: #333333;
+      max-width: 60vw;
+    }
+
+.About-Section {
+    max-width: 100vw;
 }
 
-.read-the-docs {
-  color: #888;
+.about {
+    display: flex;
 }
+.maincontent {
+    flex: 1;
+    max-width: 30%;
+    margin-bottom: 20px;
+    height: 25vh;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+  
+  .contenttext {
+    color: #004741;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .contentparagraph {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #333333;
+  }
+  
+      
+      
+
+  @media screen and (max-width: 1100px) {
+    .image {
+      max-width: 40vw;
+    }
+  }
+  
+  @media screen and (max-width: 1078px) {
+    .contentText {
+      font-size: 2.6rem;
+    }
+  
+    .image {
+      max-width: 40vw;
+    }
+  }
+  
+  @media screen and (max-width: 838px) {
+    .hamburger {
+      visibility: visible !important;
+      color: #4f8378;
+      font-size: 30px;
+      margin-right: 30px;
+    }
+  
+    .Search {
+      display: none;
+    }
+  
+    .firstContent {
+      position: absolute;
+      display: block;
+      height: 100vh;
+    }
+  
+    .contentText {
+      max-width: 100vw;
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    .image {
+      position: relative;
+      top: -180px;
+      left: 30%;
+    }
+  
+    .contentParagraph {
+      max-width: 100vw;
+      text-align: center;
+      position: relative;
+      top: 340px;
+    }
+  
+    .ratings {
+      position: relative;
+      top: 290px;
+      left: 25%;
+    }
+  }
