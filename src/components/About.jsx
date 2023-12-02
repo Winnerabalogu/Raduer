@@ -6,10 +6,10 @@ function About(props) {
       <div className='About-Section'>
         {props.texts ? (
           <div className='about'>
-            <div className='maincontent'>
+          <div className='maincontent'>
               <h1 className='contenttext'>{props.texts.head}</h1>
               <h2 className='contentparagraph'>{props.texts.subtext}</h2>
-            </div>
+          </div>
           </div>
         ) : (
           <>
