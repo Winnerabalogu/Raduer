@@ -12,6 +12,6 @@ export default [
     {
         id:3,
         head:"Revolutionize your internet experience",
-        subtext:"Whether you’re seeking lightning fast fiber optics, dependable cable or rural friendly satellite internet, Radeur is here to guide you. Join us on this quest for the perfect ISP and let’s evaluate your internet experience together!"
+        subtext:"Whether you're seeking lightning fast fiber optics, dependable cable or rural friendly satellite internet, Radeur is here to guide you. Join us on this quest for the perfect ISP and let's evaluate your internet experience together!"
     }
 ];
