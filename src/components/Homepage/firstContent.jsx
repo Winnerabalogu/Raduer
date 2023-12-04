@@ -1,5 +1,5 @@
 import React from 'react'
-import landingpage from '../images/landingpage.png'
+import landingpage from '/src/images/landingpage.png'
 
 function firstContent() {
   return (

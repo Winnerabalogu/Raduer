@@ -1,10 +1,10 @@
 // App.js
 import { useState } from 'react';
 import './App.css';
-import Header from './components/Header';
-import FirstContent from './components/firstContent';
-import About from './components/About';
-import content from './components/content';
+import Header from './components/Homepage/Header.jsx';
+import FirstContent from './components/Homepage/firstContent';
+import About from './components/Homepage/About';
+import content from './components/Homepage/content';
 
 function App() {
   return (

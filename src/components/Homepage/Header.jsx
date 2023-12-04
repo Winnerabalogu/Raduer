@@ -1,5 +1,5 @@
 import React from 'react';
-import Radeur from '../images/radeur logo.png';
+import Radeur from '/src/images/radeur logo.png';
 
 function Header() {
   return (
